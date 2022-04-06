@@ -11,6 +11,10 @@
     <module>cloud-provider-payment8001</module>
       <module>cloud-consumer-order80</module>
       <module>com-api-commons</module>
+    <module>springcloud-provider-payment9001</module>
+      <module>springcloud-provider-payment9002</module>
+      <module>springcloud-consumer-order83</module>
+      <module>cloud-config-nacos</module>
   </modules>
   <packaging>pom</packaging>
 

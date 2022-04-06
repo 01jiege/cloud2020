@@ -7,9 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-consumer-order80" />
+        <module name="springcloud-provider-payment9002" />
         <module name="cloud-provider-payment8001" />
         <module name="com-api-commons" />
+        <module name="springcloud-consumer-order83" />
+        <module name="cloud-config-nacos" />
+        <module name="cloud-consumer-order80" />
+        <module name="springcloud-provider-payment9001" />
       </profile>
     </annotationProcessing>
   </component>

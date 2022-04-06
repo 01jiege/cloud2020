@@ -1,0 +1,28 @@
+server:
+  port: 3377
+
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        namespace: 2ffad28b-14b3-47fe-9703-07f857316e0e
+        group: TEST_GROUP
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://localhost:3306/cloud_1?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: my147258
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
